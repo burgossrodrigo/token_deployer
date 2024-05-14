@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+# Token Deployer
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Basic token deployer on sepolia.
 
-Try running some of the following tasks:
+To deploy, run:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+```bash
+yarn deploy
+```
+
+Create an env file with the following entries:
+
+```env
+PRIVATE_KEY=
+SEPOLIA_RPC_URL=
 ```
