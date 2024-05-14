@@ -2,6 +2,12 @@
 
 Basic token deployer on sepolia.
 
+To install:
+
+```bash
+yarn
+```
+
 To deploy, run:
 
 ```bash
